@@ -1,0 +1,37 @@
+.cart-container{
+    margin: 50px 0;
+  
+    
+}
+
+.cart-container .cart-sub{
+    display: grid;
+    row-gap: 20px;
+}
+
+.cart-items svg{
+    color: var(--theme-bg-secondry);
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.cart-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(128, 128, 128, 0.396);
+    padding: 20px;
+}
+
+.cart-items input{
+    width: 50px;
+}
+
+.cart-price{
+    display: flex;
+    gap: 10px;
+}
+
+.cart-items .image-cart{
+    width: 80px;
+}

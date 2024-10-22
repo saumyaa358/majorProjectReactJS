@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* box-sizing: border-box; */
+    font-family: "Outfit", sans-serif;
+
+}
+/* #49c5b6 */
+
+:root{
+    --theme-bg-primary: #000;
+    --theme-bg-secondry: #ad895f ;
+    --theme-text: #ffffff;
+    --theme-text-second: #6895d3;
+
+}
+
+body{
+    background: var(--theme-bg-primary);
+    color: var(--theme-text);
+}
+
+.section{
+    padding: 0 150px;
+}
