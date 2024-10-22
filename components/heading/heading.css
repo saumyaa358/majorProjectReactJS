@@ -1,0 +1,29 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    padding:  10px 0;
+}
+
+.heading h1{
+    color: var( --theme-text-second);
+    font-size: 40px;
+    position: relative;
+    text-transform: uppercase;
+}
+.heading h1 span{
+    color: var(  --theme-bg-secondry);
+}
+
+.heading h1::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    border-radius: 60px;
+    width: 30%;
+    /* background: var(--theme-bg-secondry); */
+    /* background: linear-gradient(90deg, rgba(91,158,249,1) 46%, rgba(196,146,89,1) 60%); */
+    background: linear-gradient(90deg, rgba(173,137,95,1) 37%, rgba(91,158,249,1) 63%);
+    left: 105%;
+    top: 50%;
+ 
+}

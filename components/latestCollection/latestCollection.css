@@ -1,0 +1,19 @@
+.latestCollection .lat-head p{
+    text-align: center;
+    color: rgb(102, 101, 101);
+    font-size: 16px;
+}
+
+.latestCollection{
+    margin: 30px 0;
+}
+
+.product-container{
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  row-gap: 50px;
+}
